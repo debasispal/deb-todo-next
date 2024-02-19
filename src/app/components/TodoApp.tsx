@@ -53,6 +53,7 @@ const TodoApp: React.FC = () => {
     setTodos(todos.filter(todo => todo.id !== id));
   };
 
+  
   return (
     <div>
       <h1>Todo App</h1>
