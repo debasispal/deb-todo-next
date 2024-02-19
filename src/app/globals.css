@@ -87,18 +87,27 @@ body {
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
+  /* background: linear-gradient(
       to bottom,
       transparent,
       rgb(var(--background-end-rgb))
     )
-    rgb(var(--background-start-rgb));
+    rgb(var(--background-start-rgb)); */
+  text-align: center;  
 }
 
 a {
   color: inherit;
   text-decoration: none;
 }
+
+.btn1 {
+  margin: 10px;
+  border: 1px solid black;
+  background-color: gray;
+  padding: 2px;
+}
+
 
 @media (prefers-color-scheme: dark) {
   html {
