@@ -1,7 +1,7 @@
 'use client'
-import AddTask from '@/pages/AddTask';
-import TodoList from '@/pages/TodoList';
 import React, { useState } from 'react';
+import AddTask from './AddTask';
+import TodoList from './TodoList';
 
 interface Todo {
   id: number;
